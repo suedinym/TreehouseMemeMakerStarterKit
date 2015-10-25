@@ -21,6 +21,7 @@ public class MemeSettingsActivity extends Activity {
                 .replace(android.R.id.content, new MemeSettingsFragment())
                 .commit();
 
+
         final ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
     }

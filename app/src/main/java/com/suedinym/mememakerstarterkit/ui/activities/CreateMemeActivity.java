@@ -159,7 +159,8 @@ public class CreateMemeActivity extends Activity {
         EditText editText = new EditText(this);
         editText.setText(title);
         //// TODO: 10/25/15 below requires api 16, so need to find something for 14?
-       // editText.setBackground(null);
+        // I need it to be 14 so I can run it on my phone
+       //editText.setBackground(null);
         editText.setTextColor(Color.parseColor(color));
 
         FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);

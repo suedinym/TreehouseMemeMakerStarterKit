@@ -14,13 +14,13 @@ import com.suedinym.mememakerstarterkit.ui.fragments.MemeItemFragment;
 /**
  * Created by sue on 10/25/15.
  */
-//// TODO: 10/25/15 work on this yet sj check ribbit for what needs to happen to match
+
 
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
     Context mContext;
     public SectionsPagerAdapter(android.support.v4.app.FragmentManager fm) {
         super(fm);
-        // below is in original starter kit code, but AS doesn't like it sj
+        //todo below is in original starter kit code, but AS doesn't like it sj
       //  mContext = context;
     }
 

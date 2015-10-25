@@ -31,7 +31,6 @@ import com.suedinym.mememakerstarterkit.ui.activities.MemeSettingsActivity;
 import java.io.File;
 import java.util.ArrayList;
 
-//// TODO: 10/25/15 again with the menu stuff I think
 
 public class ImageGridFragment extends android.support.v4.app.Fragment {
 

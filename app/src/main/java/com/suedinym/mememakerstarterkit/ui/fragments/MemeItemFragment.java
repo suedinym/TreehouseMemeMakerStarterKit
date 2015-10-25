@@ -34,7 +34,7 @@ import com.suedinym.mememakerstarterkit.ui.activities.CreateMemeActivity;
 import com.suedinym.mememakerstarterkit.ui.activities.MemeSettingsActivity;
 import com.suedinym.mememakerstarterkit.utils.FileUtilities;
 
-// // TODO: 10/25/15 again with the menu item stuff I think
+
 public class MemeItemFragment extends android.support.v4.app.ListFragment {
 
     private Menu mMenu;
