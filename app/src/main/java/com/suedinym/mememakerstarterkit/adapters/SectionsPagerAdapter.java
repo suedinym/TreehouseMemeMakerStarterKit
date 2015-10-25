@@ -1,8 +1,10 @@
-package com.suedinym.mememakerstarterkit;
+package com.suedinym.mememakerstarterkit.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.suedinym.mememakerstarterkit.ui.activities.MainActivity;
 
 /**
  * Created by sue on 10/25/15.

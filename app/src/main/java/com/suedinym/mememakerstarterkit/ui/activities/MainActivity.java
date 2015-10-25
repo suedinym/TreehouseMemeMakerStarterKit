@@ -1,4 +1,4 @@
-package com.suedinym.mememakerstarterkit;
+package com.suedinym.mememakerstarterkit.ui.activities;
 
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +14,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import android.widget.TextView;
+import com.suedinym.mememakerstarterkit.R;
+import com.suedinym.mememakerstarterkit.adapters.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
