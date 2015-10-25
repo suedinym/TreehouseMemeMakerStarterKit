@@ -5,6 +5,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.suedinym.mememakerstarterkit.ui.fragments.MemeSettingsFragment;
+
 
 //// TODO: 10/25/15 may need to deal with action bar sj
 /**

@@ -16,7 +16,7 @@ import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import android.widget.Spinner;E
+import android.widget.Spinner;
 
 
 import com.suedinym.mememakerstarterkit.R;
@@ -158,7 +158,8 @@ public class CreateMemeActivity extends Activity {
         ContextThemeWrapper newContext = new ContextThemeWrapper(this, R.style.holoLightLess);
         EditText editText = new EditText(this);
         editText.setText(title);
-        editText.setBackground(null);
+        //// TODO: 10/25/15 below requires api 16, so need to find something for 14?
+       // editText.setBackground(null);
         editText.setTextColor(Color.parseColor(color));
 
         FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
