@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.suedinym.mememakerstarterkit.ui.CreateMemeActivity">
+    <item
+        android:id="@+id/choose_font_action"
+        android:actionLayout="@layout/font_color_selection"
+        android:title="@string/action_choose_font"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/save_action"
+        android:orderInCategory="100"
+        android:title="@string/action_save"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="ifRoom" />
 </menu>

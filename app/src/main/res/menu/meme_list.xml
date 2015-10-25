@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <item
+        android:id="@+id/edit_action"
+        android:visible="false"
+        android:title="@string/edit_action"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/share_action"
+
+        android:icon="@android:drawable/ic_menu_share"
+        android:visible="false"
+        android:title="@string/share_action"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/settings_action"
+        android:icon="@android:drawable/ic_menu_preferences"
+
+        android:title="@string/settings_action"
+        app:showAsAction="ifRoom" />
 
 </menu>

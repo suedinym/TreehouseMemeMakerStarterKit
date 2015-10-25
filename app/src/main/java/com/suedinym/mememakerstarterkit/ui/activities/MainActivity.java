@@ -19,6 +19,8 @@ import com.suedinym.mememakerstarterkit.adapters.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
+    //// TODO: 10/25/15 may need to add some stuff and rearrange this
+
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
