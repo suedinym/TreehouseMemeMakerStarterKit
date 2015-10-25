@@ -24,16 +24,18 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Toast;
 
+
 import com.suedinym.mememakerstarterkit.R;
 import com.suedinym.mememakerstarterkit.adapters.MemeItemListAdapter;
 import com.suedinym.mememakerstarterkit.models.Meme;
+
 import com.suedinym.mememakerstarterkit.models.MemeAnnotation;
 import com.suedinym.mememakerstarterkit.ui.activities.CreateMemeActivity;
 import com.suedinym.mememakerstarterkit.ui.activities.MemeSettingsActivity;
 import com.suedinym.mememakerstarterkit.utils.FileUtilities;
 
 // // TODO: 10/25/15 again with the menu item stuff I think
-public class MemeItemFragment extends ListFragment {
+public class MemeItemFragment extends android.support.v4.app.ListFragment {
 
     private Menu mMenu;
     private int mSelectedItem;

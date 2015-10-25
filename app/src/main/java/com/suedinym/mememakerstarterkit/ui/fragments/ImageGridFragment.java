@@ -33,7 +33,7 @@ import java.util.ArrayList;
 
 //// TODO: 10/25/15 again with the menu stuff I think
 
-public class ImageGridFragment extends Fragment {
+public class ImageGridFragment extends android.support.v4.app.Fragment {
 
     private GridView mGridView;
     private GridViewAdapter mGridAdapter;
