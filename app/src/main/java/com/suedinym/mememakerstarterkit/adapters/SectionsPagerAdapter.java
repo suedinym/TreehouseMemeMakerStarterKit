@@ -10,7 +10,7 @@ import com.suedinym.mememakerstarterkit.ui.activities.MainActivity;
  * Created by sue on 10/25/15.
  */
 //// TODO: 10/25/15 work on this yet sj
-    
+
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     public SectionsPagerAdapter(FragmentManager fm) {
