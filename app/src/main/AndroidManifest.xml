@@ -19,6 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.activities.MemeSettingsActivity"
+            android:label="Settings" />
+        <activity
+            android:name=".ui.activities.CreateMemeActivity"
+            android:label="@string/title_activity_create_meme"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>
