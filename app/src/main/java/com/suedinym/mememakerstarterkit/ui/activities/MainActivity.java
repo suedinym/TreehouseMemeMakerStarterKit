@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 //// TODO: 10/25/15 it was working until I added the code below
 
-    @Override
+   @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 

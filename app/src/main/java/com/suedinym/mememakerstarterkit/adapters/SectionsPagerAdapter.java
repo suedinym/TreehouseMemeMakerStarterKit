@@ -21,10 +21,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     public SectionsPagerAdapter(android.support.v4.app.FragmentManager fm) {
         super(fm);
         //todo below is in original starter kit code, but AS doesn't like it sj
-      //  mContext = context;
+     // mContext = context;
     }
 
-    @Override
+/*    @Override
     public android.support.v4.app.Fragment getItem(int position) {
         Fragment fragment;
         if(position == 0) {
@@ -33,7 +33,26 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             fragment = new MemeItemFragment();
         }
         return fragment;
+    }*/
+
+    public android.support.v4.app.Fragment getItem(int position) {
+
+        switch (position) {
+            case 0:
+
+                ImageGridFragment tab1 = new ImageGridFragment();
+                return tab1;
+
+            case 1:
+                MemeItemFragment tab2 = new MemeItemFragment();
+                return tab2;
+            default:
+                return null;
+
+
+        }
     }
+
     @Override
     public CharSequence getPageTitle(int position) {
         if(position == 0) {
