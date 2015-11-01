@@ -17,10 +17,12 @@ import com.suedinym.mememakerstarterkit.ui.fragments.MemeItemFragment;
 
 
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
-    Context mContext;
+    //below is in original starter kit code, but AS doesn't like it sj
+   // Context mContext;
+
     public SectionsPagerAdapter(android.support.v4.app.FragmentManager fm) {
         super(fm);
-        //todo below is in original starter kit code, but AS doesn't like it sj
+        //below is in original starter kit code, but AS doesn't like it sj
      // mContext = context;
     }
 
@@ -52,13 +54,16 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         }
     }
-
+/*In the original starter kit, the code below is extracted to strings
+    but every time I have tried extracting it to strings, it returns a
+    null pointer exception. The other notes with regard to the
+    context are part of this.*/
     @Override
     public CharSequence getPageTitle(int position) {
         if(position == 0) {
-            return mContext.getString(R.string.images_fragment_title);
+            return "Images";
         } else {
-            return mContext.getString(R.string.memes_fragment_title);
+            return "Memes";
         }
     }
 

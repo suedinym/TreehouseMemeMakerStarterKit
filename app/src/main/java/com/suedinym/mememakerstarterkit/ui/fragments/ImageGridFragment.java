@@ -37,7 +37,9 @@ public class ImageGridFragment extends android.support.v4.app.Fragment {
     private GridView mGridView;
     private GridViewAdapter mGridAdapter;
     public static int RESULT_LOAD_IMAGE = 1000;
+//added @override below, which was missing from original starterkit code sj
 
+@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_image_grid, container, false);
         mGridView = (GridView) rootView.findViewById(R.id.gridView);

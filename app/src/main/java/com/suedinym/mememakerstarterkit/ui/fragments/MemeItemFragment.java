@@ -37,9 +37,14 @@ import com.suedinym.mememakerstarterkit.utils.FileUtilities;
 
 public class MemeItemFragment extends android.support.v4.app.ListFragment {
 
-    private Menu mMenu;
+
+
+   private Menu mMenu;
     private int mSelectedItem;
     private MemeItemListAdapter mMemeItemListAdapter;
+
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -149,3 +154,4 @@ public class MemeItemFragment extends android.support.v4.app.ListFragment {
         return workingBitmap;
     }
 }
+
