@@ -9,6 +9,10 @@ I added 2 pictures (wonka and philosoraptor) and resized one of the originals. (
 
 I did change it so it runs on api 14, instead of 16. There is one line in the code that requires api 16. It is currently commented out.
 
+---- This was built on my xubuntu 14.04 development machine which is running ---
+java version "1.8.0_66"
+Android studio 1.4
+
 --------- from original treehouse readme.md ---------
 #Meme Maker - Features implemented since they don't include data persistence
 
