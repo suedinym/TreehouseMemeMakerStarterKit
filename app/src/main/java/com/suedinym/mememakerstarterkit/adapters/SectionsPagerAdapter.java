@@ -24,27 +24,22 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
 
     public android.support.v4.app.Fragment getItem(int position) {
-
         switch (position) {
             case 0:
-
-                ImageGridFragment tab1 = new ImageGridFragment();
-                return tab1;
-
+                return new ImageGridFragment();
             case 1:
-                MemeItemFragment tab2 = new MemeItemFragment();
-                return tab2;
-            default:
-                return null;
-
-
+                return new MemeItemFragment();
         }
+        return null;
     }
+
+
 
     /*In the original starter kit, the code below is extracted to strings
         but every time I have tried extracting it to strings, it returns a
         null pointer exception. The other notes with regard to the
-        context are part of this.*/
+        context are part of this. I think the problem is choosing
+        the correct context, so it's hard coded, but it works. sj*/
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {

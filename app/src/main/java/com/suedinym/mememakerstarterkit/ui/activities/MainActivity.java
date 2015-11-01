@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
     }
-//// TODO: 10/25/15 it was working until I added the code below
+
 
    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
